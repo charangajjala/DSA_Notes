@@ -1,4 +1,3 @@
-**Topics:**
 - [Binary Search](#binary-search)
   - [Binary Search Approach:](#binary-search-approach)
   - [Time Analysis](#time-analysis)
