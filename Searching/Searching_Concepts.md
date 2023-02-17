@@ -62,7 +62,7 @@ Binary Search Algorithm: The basic steps to perform Binary Search are:
 ### Recursive
 ```python
    ''' Time: O(logN)
-       A.Space: O(N) - due to function stack
+       A.Space: O(logN) - due to function stack
    '''
    def binary_search(arr,k,low,high):
 
