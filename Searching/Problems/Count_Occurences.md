@@ -1,5 +1,9 @@
 # Count Occurrences in Sorted Array
 
+- [Count Occurrences in Sorted Array](#count-occurrences-in-sorted-array)
+  - [Problem Statement](#problem-statement)
+  - [Algorithm](#algorithm)
+  - [Code](#code)
 
 ## Problem Statement
 
