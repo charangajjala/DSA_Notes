@@ -9,6 +9,8 @@
     - [Linear Probing](#linear-probing)
     - [Quadratic Probing](#quadratic-probing)
     - [Double Hashing](#double-hashing)
+  - [Chaining vs Open Addressing](#chaining-vs-open-addressing)
+  - [Python Set internal working](#python-set-internal-working)
 
 ## Hashing Introduction
 - Hashing datastructures are one of the most widely used in cs 
@@ -66,4 +68,15 @@
 - We use another hash function hash2(x) and look for i*hash2(x) slot in i'th rotation.
 - let hash(x) be the slot index computed using hash function. If slot hash(x) % S is full, then we try (hash(x) + 1*hash2(x)) % S If (hash(x) + 1*hash2(x)) % S is also full, then we try (hash(x) + 2*hash2(x)) % S If (hash(x) + 2*hash2(x)) % S is also full, then we try (hash(x) + 3*hash2(x)) % S
 - Double hashing has poor cache performance but no clustering. Double hashing requires more computation time as two hash functions need to be computed.
+
+## Chaining vs Open Addressing 
+![](Assets/2023-03-20-11-33-54.png)
+
+## Python Set internal working 
+- Python's built-in set uses chaining to resolve collisions when hashing elements. 
+
+- When a new set is created in Python, the interpreter allocates memory to hold the set's data and initializes a hash table with a fixed number of empty slots. 
+- The number of slots in the hash table is determined based on the initial size of the set and the load factor, which is the ratio of the number of elements in the set to the number of slots in the hash table.
+- When a set is modified by adding or removing elements, the interpreter may need to resize the hash table if the load factor exceeds a certain threshold. This involves allocating a new hash table with a larger number of slots, rehashing all the existing elements, and inserting them into the new table in their new positions.
+- Overall, sets in Python provide efficient, O(1) average-case performance for common operations such as adding, removing, and checking for membership
 
