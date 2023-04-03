@@ -6,7 +6,7 @@
 - [Sorting](Sorting/README.md)
 - [Matrix](Matrix/Problems/)
 - [Hashing](Hashing/README.md)
-- [Strings](Strings/Problems/)
+- [Strings](Strings/README.md)
   
 
 
