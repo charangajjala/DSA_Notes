@@ -3,6 +3,7 @@
 **Topics**:
 
 - [Analysis of Algorithms](AnalysisOfAlgorithms/README.md)
+- [Mathematics](Mathematics/README.md)
 - [Searching](Searching/README.md)
 - [Sorting](Sorting/README.md)
 - [Matrix](Matrix/Problems/)
