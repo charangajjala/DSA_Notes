@@ -1,3 +1,3 @@
 **Topics**
 
-- [Mathematics](Mathematics/Problems)
+- [Problems](/Mathematics/Problems/)
